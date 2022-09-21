@@ -14,10 +14,12 @@ export const Default = Template.bind({});
 Default.args = {
   title: 'your email was updated successfully',
   icon: 'type3',
+  showIcon: true,
 };
 
 export const Secondary = Template.bind({});
 Secondary.args = {
   title: 'your email was updated successfully',
   icon: 'type2',
+  showIcon: true,
 };

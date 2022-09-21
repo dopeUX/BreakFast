@@ -29,7 +29,7 @@ Primary.args = {
 export const Secondary = Template.bind({});
 Secondary.args = {
   btnType: 'secondary',
-  // title: "Tasty!",
+  title: 'Tasty!',
   textColor: '#ffffff',
   btnSize: 'md',
   isLoading: false,
@@ -62,5 +62,5 @@ dark.args = {
   isLoading: false,
 };
 
-export const custom = Template.bind({});
+const custom = Template.bind({});
 custom.args = {};

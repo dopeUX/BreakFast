@@ -14,6 +14,7 @@ export const Default = Template.bind({});
 Default.args = {
   title: 'Oops ! email validation failed',
   icon: 'type1',
+  showIcon: true,
 };
 
 export const Secondary = Template.bind({});
