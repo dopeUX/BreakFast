@@ -1,0 +1,9 @@
+.circular-avatar-img{
+  object-fit: cover;
+  border-radius: 50%;
+  border:tra
+}
+
+.circular-avatar-shadow{
+    box-shadow: 0 0 20px 3px #969696;
+}

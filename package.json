@@ -1,0 +1,98 @@
+{
+  "version": "2.0.2",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "src",
+    "assets"
+  ],
+  "engines": {
+    "node": ">=10"
+  },
+  "scripts": {
+    "start": "tsdx watch",
+    "build": "tsdx build -s assets",
+    "test": "tsdx test --passWithNoTests",
+    "lint": "tsdx lint",
+    "prepare": "tsdx build",
+    "size": "size-limit",
+    "analyze": "size-limit --why",
+    "storybook": "start-storybook ./ -p 9001",
+    "build-storybook": "build-storybook ./ -s assets",
+    "build-tsc": "tsc --outDir dist/lib --declarationDir dist/types --declaration true && rollup -c"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "tsdx lint"
+    }
+  },
+  "keywords": [
+    "react library",
+    "ui-library",
+    "react components",
+    "ui-library",
+    "react reusable components",
+    "storybook",
+    "storybook typescript",
+    "storybook-react"
+  ],
+  "prettier": {
+    "printWidth": 80,
+    "semi": true,
+    "singleQuote": true,
+    "trailingComma": "es5"
+  },
+  "name": "breakfast-ui",
+  "author": "UXNation",
+  "description": "Your tasty component library",
+  "module": "dist/breakfast.esm.js",
+  "size-limit": [
+    {
+      "path": "dist/breakfast.cjs.production.min.js",
+      "limit": "10 KB"
+    },
+    {
+      "path": "dist/breakfast.esm.js",
+      "limit": "10 KB"
+    }
+  ],
+  "devDependencies": {
+    "@babel/core": "^7.19.1",
+    "@size-limit/preset-small-lib": "^8.1.0",
+    "@storybook/addon-essentials": "^6.5.12",
+    "@storybook/addon-info": "^5.3.21",
+    "@storybook/addon-links": "^6.5.12",
+    "@storybook/addons": "^6.5.12",
+    "@storybook/react": "^6.5.12",
+    "@types/react": "^18.0.20",
+    "@types/react-dom": "^18.0.6",
+    "@types/storybook__react": "^5.2.1",
+    "babel-loader": "^8.2.5",
+    "file-loader": "^6.2.0",
+    "husky": "^8.0.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-is": "^18.2.0",
+    "size-limit": "^8.1.0",
+    "tsdx": "^0.14.1",
+    "tslib": "^2.4.0",
+    "typescript": "^4.8.3"
+  },
+  "dependencies": {
+    "@rollup/plugin-typescript": "^3.1.1",
+    "@storybook/addon-design-assets": "^6.2.9",
+    "autoprefixer": "^10.4.12",
+    "cssnano": "^5.1.13",
+    "postcss": "^8.4.16",
+    "postcss-flexbugs-fixes": "^5.0.2",
+    "react-docgen": "^5.4.3",
+    "react-image-element-loader": "^2.0.1",
+    "rollup-plugin-postcss": "^4.0.2"
+  }
+}

@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
+.button-textbox {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0;
+}
+
+.button-textbox input {
+  z-index: 1;
+  width: 250px;
+  margin: 0;
+  display: block;
+  margin-right: 2rem;
+  font-family: 'Manrope', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 1rem;
+  outline: none;
+  border-radius: 0;
+  -webkit-transition: border .2s ease-in-out;
+  transition: border .2s ease-in-out;
+  border: 1px solid #b4b4b4;
+}
+
+.button-textbox button {
+  z-index: 2;
+  font-size: 1rem;
+  position: absolute;
+  right: 0;
+  padding: .5rem 1rem;
+  border-radius: .5rem;
+  border: none;
+  cursor: pointer;
+  -webkit-transition: all .2s ease;
+  transition: all .2s ease;
+}
+
+.button-textbox button:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.button-textbox-section span {
+  display: block;
+  color: Red;
+  font-size: 1rem;
+  margin: 1rem .3rem;
+}
+/*# sourceMappingURL=ButtonTextBox.modules.css.map */

@@ -1,0 +1,9 @@
+.rounded-avatar-img{
+    object-fit: cover;
+    border-radius: 20%;
+    border:tra
+  }
+  
+  .rounded-avatar-shadow{
+      box-shadow: 0 0 20px 3px #969696;
+  }

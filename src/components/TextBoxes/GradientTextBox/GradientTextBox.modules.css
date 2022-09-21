@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
+.gradient-textbox {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease;
+}
+
+.gradient-textbox div {
+  position: relative;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+.gradient-textbox div .box {
+  width: 80%;
+  padding: 1rem;
+  outline: none;
+  margin: 5rem;
+  position: absolute;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease;
+}
+
+.gradient-textbox div input {
+  display: block;
+  border-radius: 15px;
+  outline: none;
+  padding: 1rem;
+  width: 300px;
+  font-family: 'Manrope', Tahoma, Geneva, Verdana, sans-serif;
+  border: 3px solid transparent;
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease;
+}
+
+.gradient-textbox div input:focus {
+  border: 1px solid transparent;
+}
+
+.gradient {
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease;
+}
+/*# sourceMappingURL=GradientTextBox.modules.css.map */

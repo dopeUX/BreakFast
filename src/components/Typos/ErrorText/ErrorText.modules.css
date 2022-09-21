@@ -1,0 +1,14 @@
+.error-text{
+    display: flex;
+    font-size: 1.5rem;
+    color:#EB1D36;
+    margin: 0;
+    align-items: center;
+}
+
+.error-text-icon{
+    width: 1.3em;
+    height: 1.3em;
+    display: inline-block;
+    margin-left: 1rem;
+}

@@ -1,0 +1,14 @@
+.success-text{
+    display: flex;
+    font-size: 1.5rem;
+    color:#4da527;
+    margin: 0;
+    align-items: center;
+}
+
+.success-text-icon{
+    width: 1.3em;
+    height: 1.3em;
+    display: inline-block;
+    margin-left: 1rem;
+}

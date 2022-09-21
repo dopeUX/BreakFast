@@ -1,0 +1,93 @@
+.textbox-simple {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  border-radius: 10px;
+  border: 2px solid  #c5c5c5;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
+.textbox-simple .label-box {
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 1rem;
+  border-radius: 8.3px 0 0 8.3px;
+  background-color: #EFEFEF;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
+.change-border .label-box {
+  background-color: #65C18C;
+}
+
+.change-border .label-box h3 {
+  color: #ffffff;
+}
+
+.textbox-simple-label-end {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+.textbox-simple-label-end .label-box {
+  border-radius: 0 8.3px 8.3px 0;
+}
+
+.change-border {
+  border: 2px solid #65C18C;
+}
+
+.textbox-simple h3 {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 0;
+  margin-top: 14px;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #979797;
+}
+
+.textbox-simple input {
+  display: inline-block;
+  padding: 0 1rem;
+  height: 50px;
+  border-radius: .5rem;
+  font-size: 1rem;
+  margin: 0;
+  margin-left: 1px;
+  border: none;
+}
+
+.textbox-simple input:focus {
+  outline: none;
+}
+
+.textbox-simple-section span {
+  color: Red;
+  font-size: 1rem;
+  margin: 1rem .3rem;
+}
+/*# sourceMappingURL=TextBox.modules.css.map */

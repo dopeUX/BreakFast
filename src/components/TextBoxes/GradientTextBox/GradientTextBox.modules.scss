@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
+.gradient-textbox{
+    height: fit-content;
+    width: fit-content;
+    // width: fit-content;
+    // border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .5s ease;
+  
+    div{
+        position: relative;
+        width: fit-content;
+        height: fit-content;
+    .box{
+        width: 80%;
+        padding: 1rem;
+        outline: none;
+        // border: 4px solid ;
+        margin: 5rem;
+        position: absolute;
+        height: fit-content;
+        width: fit-content;
+        transition: all .5s ease;
+
+        // aspect-ratio: 16/9;
+        // background:linear-gradient(to right, white,white),linear-gradient(to right, red, blue);
+        // background-clip: padding-box, border-box;
+        // background-origin: padding-box, border-box;
+    
+      }
+        input{
+            display: block;
+            border-radius: 15px;
+            outline: none;
+            padding: 1rem ;
+            width: 300px;
+            font-family: 'Manrope', Tahoma, Geneva, Verdana, sans-serif;
+            border: 3px solid transparent;
+            transition: all .5s ease;
+
+            &:focus{
+                border: 1px solid transparent;
+            }
+        }
+
+    
+}
+}
+
+
+
+.gradient{
+    transition: all .5s ease;
+   
+}
+
+
+
+        

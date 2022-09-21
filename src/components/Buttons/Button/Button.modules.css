@@ -1,0 +1,64 @@
+.simple-btn{
+    background-color: black;
+    border: none;
+    color: white;
+    padding:.8rem;
+    border-radius: .8rem;
+    cursor: pointer;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.primary{
+    background-color: #F65A83;
+}
+.secondary{
+    background-color: #65C18C;
+}
+
+.yummy{
+    background-color: #F68989;
+}
+
+.chocolatey{
+    background-color: #A64B2A;
+}
+
+.dark{
+    background-color: #2C3333;
+}
+
+.xs{
+    font-size:x-small;
+    border-radius: .5rem;
+    padding: .5rem;
+}
+
+.sm{
+    font-size: small;
+    border-radius: .6rem;
+}
+
+.md{
+    font-size: medium;
+    border-radius: .7rem;
+}
+
+.lg{
+    font-size: large;
+    padding:.9rem;
+}
+
+.xl{
+   font-size: x-large;
+   padding: 1.1rem;
+}
+
+.xxl{
+   font-size: xx-large;
+   padding: 1.3rem; 
+}
+
+
+
