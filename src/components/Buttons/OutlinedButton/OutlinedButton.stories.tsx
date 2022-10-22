@@ -4,7 +4,7 @@ import OutlinedButton from './OutlinedButton';
 import outlinedButtonProps from './OutlinedButton.types';
 
 export default {
-  title: 'Starter/Buttons/OutlinedButton',
+  title: 'Starters/Buttons/OutlinedButton',
   component: OutlinedButton,
 } as Meta;
 

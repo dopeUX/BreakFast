@@ -10,7 +10,7 @@ import ButtonProps from './Button.types';
 // });
 
 export default {
-  title: 'Starter/Buttons/Button',
+  title: 'Starters/Buttons/Button',
   component: Button,
 } as Meta;
 

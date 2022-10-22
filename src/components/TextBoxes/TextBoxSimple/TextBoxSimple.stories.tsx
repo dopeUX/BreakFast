@@ -4,7 +4,7 @@ import TextBoxSimple from './TextBoxSimple';
 import TextBoxSimpleProps from './TextBoxSimple.types';
 
 export default {
-  title: 'Starter/TextBoxes/TextBoxSimple',
+  title: 'Starters/TextBoxes/TextBoxSimple',
   component: TextBoxSimple,
 } as Meta;
 

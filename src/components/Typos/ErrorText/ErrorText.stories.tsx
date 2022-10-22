@@ -4,7 +4,7 @@ import ErrorText from './ErrorText';
 import ErrorTextProps from './ErrorText.types';
 
 export default {
-  title: 'Starter/Typos/ErrorText',
+  title: 'Starters/Typos/ErrorText',
   component: ErrorText,
 } as Meta;
 

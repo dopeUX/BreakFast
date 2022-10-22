@@ -4,7 +4,7 @@ import SuccessText from './SuccessText';
 import SuccessTextProps from './SuccessText.types';
 
 export default {
-  title: 'Starter/Typos/SuccessText',
+  title: 'Starters/Typos/SuccessText',
   component: SuccessText,
 } as Meta;
 

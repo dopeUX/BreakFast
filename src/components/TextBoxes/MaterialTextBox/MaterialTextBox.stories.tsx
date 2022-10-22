@@ -4,7 +4,7 @@ import { Story, Meta } from '@storybook/react';
 import MaterialTextBoxProps from './MaterialTextBox.types';
 
 export default {
-  title: 'Starter/TextBoxes/MaterialTextBox',
+  title: 'Starters/TextBoxes/MaterialTextBox',
   component: MaterialTextBox,
 } as Meta;
 

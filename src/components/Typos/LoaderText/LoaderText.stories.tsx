@@ -4,7 +4,7 @@ import LoaderText from "./LoaderText";
 import LoaderTextProps from "./LoaderText.types";
 
 export default {
-  title: "Starter/Typos/LoaderText",
+  title: "Starters/Typos/LoaderText",
   component: LoaderText,
 } as Meta;
 
