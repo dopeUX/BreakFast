@@ -1,0 +1,16 @@
+.container-box {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  border: 3px solid #FF7D7D;
+  padding: 1rem 1.5rem;
+  margin: 1rem;
+  border-radius: 1rem;
+}
+
+.container-box .container-content {
+  display: block;
+  width: 300px;
+  font-size: 1rem;
+}
+/*# sourceMappingURL=ContainerBox.modules.css.map */

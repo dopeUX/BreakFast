@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,cAAc,CAAA;EACV,KAAK,EAAE,WAAW;EACpB,MAAM,EAAE,iBAAiB;EACzB,OAAO,EAAE,WAAW;EACpB,MAAM,EAAE,IAAI;EACZ,aAAa,EAAE,IAAI;CAOpB;;AAZD,AAOI,cAPU,CAOV,kBAAkB,CAAA;EAChB,OAAO,EAAE,KAAK;EACb,KAAK,EAAE,KAAK;EACZ,SAAS,EAAE,IAAI;CACjB",
+    "sources": [
+        "ContainerBox.modules.scss"
+    ],
+    "names": [],
+    "file": "ContainerBox.modules.css"
+}

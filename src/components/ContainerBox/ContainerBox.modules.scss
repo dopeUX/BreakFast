@@ -1,0 +1,13 @@
+.container-box{
+    width: fit-content;
+  border: 3px solid #FF7D7D;
+  padding: 1rem 1.5rem;
+  margin: 1rem;
+  border-radius: 1rem;
+  // box-shadow: 0 0 20px 5px rgba(70, 70, 70, 0.43);
+    .container-content{
+      display: block;
+       width: 300px;
+       font-size: 1rem; 
+    }
+}
