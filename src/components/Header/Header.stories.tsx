@@ -1,15 +1,15 @@
 import React from 'react';
 import { Story, Meta } from '@storybook/react';
 import { MAIN_COARSE } from '../../constants';
-import Navbar from './Navbar';
-import { NavbarProps } from './Navbar';
+import Header from './Header';
+import { HeaderProps } from './Header';
 
 export default {
-  title: MAIN_COARSE + '/Navbar',
-  component: Navbar,
+  title: MAIN_COARSE + '/Header',
+  component: Header,
 } as Meta;
 
-const Template: Story<NavbarProps> = args => <Navbar {...args} />;
+const Template: Story<HeaderProps> = args => <Header {...args} />;
 
 export const Default = Template.bind({});
 Default.args = {};
